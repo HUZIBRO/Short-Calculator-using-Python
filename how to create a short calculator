@@ -1,0 +1,29 @@
+calc=int(input("enter the first number:  ".upper()))
+calc1=int(input("enter the second number : ".upper()))
+plus_=input("input your desire function:  ".upper())
+def caln():
+    return (calc * 4840)
+def cal():
+    return (calc / calc1)
+def cal_1():
+    return (calc * calc1)
+def cal_2():
+    return (calc - calc1)
+def cal_3():
+    return (calc + calc1)
+for var in str(cal()): 
+     if plus_ =="*":
+        print(cal_1())
+        break
+     if plus_ =="+":
+        print(cal_3())
+        break
+     if plus_ =="-":
+        print(cal_2())
+        break
+     if plus_ =="/":
+        print(cal())
+        break
+     if plus_ =="acre":
+        print(caln())
+        break
